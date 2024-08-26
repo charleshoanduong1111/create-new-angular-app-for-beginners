@@ -9,7 +9,6 @@ pipeline {
         }
         stage('Deliver') {
             steps {
-                bat  'chmod -R +rwx ./jenkins/scripts/deliver.sh'
                 bat  './jenkins/scripts/deliver.sh'
             }
         }
