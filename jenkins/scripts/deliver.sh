@@ -1,7 +1,7 @@
 @echo off 
 call npm run build
 call npm run serve
-echo Done. > done.txt
+echo "Done. > done.txt"
 type done.txt
 pause
 echo 'Now...'
