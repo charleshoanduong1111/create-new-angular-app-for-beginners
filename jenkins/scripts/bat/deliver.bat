@@ -1,6 +1,6 @@
 @echo off
 call npm run build
-call npm run erve
+call npm run serve
 REM echo Done > .done.txt
 REM type .done.txt
 echo 'Now...'
