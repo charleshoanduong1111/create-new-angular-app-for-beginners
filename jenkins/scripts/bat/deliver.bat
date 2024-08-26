@@ -1,6 +1,6 @@
 @echo off
-call npm run build
-call npm run serve
+call npm run ng build
+call npm run ng serve
 REM echo Done > .done.txt
 REM type .done.txt
 echo 'Now...'
